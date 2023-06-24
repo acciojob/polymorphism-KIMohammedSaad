@@ -17,9 +17,17 @@ public class Main {
 
     public static void main(String[] args) {
         Product p = new Product();
-        p.product(2, 3);
-        p.product(2, 3, 4);
-        p.product(2.5, 3.5);
 
+        // Task 3: Calling the product method with two integers
+        int result1 = p.product(2, 3);
+        System.out.println("Result 1: " + result1);
+
+        // Task 4: Calling the product method with three integers
+        int result2 = p.product(2, 3, 4);
+        System.out.println("Result 2: " + result2);
+
+        // Task 5: Calling the product method with two doubles
+        double result3 = p.product(2.5, 3.5);
+        System.out.println("Result 3: " + result3);
     }
 }
